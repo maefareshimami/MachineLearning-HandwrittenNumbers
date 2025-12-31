@@ -1,8 +1,9 @@
 """
-Machine Learning - k-NN - Hand-Written Numbers
+Machine Learning - k Nearest Neighbors
+Handwritten Number Recognition
 12/30/25
 
-If you use my code or a part of it for your projects, thank for quoting me!
+If you use my code or a part of it for your projects, thank you for quoting me!
 """
 
 
@@ -56,4 +57,5 @@ if __name__ == "__main__":
             f.write(f"Optimal accuracy: {optimal_accuracy}\n")
             f.write(f"Compute total time: {compute_total_time}\n")
     else:
+
         sys.exit()
